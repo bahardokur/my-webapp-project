@@ -18,7 +18,6 @@
       display: flex;
       align-items: center;
       justify-content: center;
-      min-height: 100vh;
     }
     .card {
       width: min(560px, 92vw);
@@ -27,18 +26,16 @@
       background: #ffffff;
       box-shadow: 0 20px 40px rgba(0,0,0,0.08);
       text-align: center;
-      transition: padding 0.2s, width 0.2s;
     }
     h1 {
       margin: 0 0 12px;
-      font-size: clamp(2rem, 7vw, 42px);
+      font-size: 42px;
       color: #1e293b;
-      line-height: 1.1;
     }
     p {
       margin: 0;
       color: #475569;
-      font-size: clamp(1rem, 4vw, 17px);
+      font-size: 17px;
       line-height: 1.6;
     }
     .divider {
@@ -58,27 +55,6 @@
       font-size: 14px;
       font-weight: 500;
     }
-
-    @media (max-width: 600px) {
-      .card {
-        padding: 22px 8px 18px 8px;
-        width: 98vw;
-      }
-      h1 {
-        font-size: clamp(1.5rem, 9vw, 2.2rem);
-      }
-      .divider {
-        margin: 16px auto;
-      }
-      .badge {
-        margin-top: 14px;
-        font-size: 13px;
-        padding: 8px 12px;
-      }
-      p {
-        font-size: clamp(0.98rem, 4vw, 1.08rem);
-      }
-    }
   </style>
 </head>
 <body>
@@ -87,7 +63,7 @@
     <div class="divider"></div>
     <p>
       This is your new clean and modern interface.<br>
-      You can customize this page for your project or lab assignment.
+      You can customize this page for your project or lab assignment.Mi bombo mi bombo mi bombo
     </p>
     <div class="badge">SE3318 · Labwork 2</div>
   </div>
