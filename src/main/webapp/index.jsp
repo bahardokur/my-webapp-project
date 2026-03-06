@@ -110,6 +110,11 @@
     <ul class="todo-list" id="taskList">
       <!-- tasks will be injected here -->
     </ul>
+    <p>
+      This is your new clean and modern interface.<br>
+      You can customize this page for your project or lab assignment.Mi bombo mi bombo mi bombo
+    </p>
+    <div class="badge">SE3318 · Labwork 2</div>
   </div>
 
   <script>
